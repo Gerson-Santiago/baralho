@@ -9,7 +9,7 @@ export default function ordenarDeck(deck) {
     deck.forEach(element => {
         let carta = element[0]
         let naipe = element[1]
-        console.log(`carta ${carta}         naipe ${naipe}`)
+        console.log(`carta ${carta}`)//         naipe ${naipe} = ${charCodeAt(carta)}    `)
         console.log(`naipe ${naipe}`)
 
 

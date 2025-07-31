@@ -2,7 +2,11 @@
 import ordenarDeck from "./util.js";
 
 // Exemplo de entrada
-const deck = ["Q♠", "3♦", "A♣", "10♥", "2♣", "K♦"];
+const deck = ["3♠", "Q♠", "3♦", "A♣", "A♦", "10♥", "2♣", "K♦"];
 
 // Exemplo de entrada
-console.log(ordenarDeck(deck))
+let minhaMaoOrganizada = ordenarDeck(deck);
+console.log(minhaMaoOrganizada)
+
+// Exemplo de saída esperada
+
