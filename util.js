@@ -1,4 +1,4 @@
-// baralho/teste.js
+// baralho/util.js
 import getNaipes from "./config_baralho/naipes.js";
 import getCartas from "./config_baralho/cartas.js";
 
@@ -9,10 +9,10 @@ export default function ordenarDeck(deck) {
     deck.forEach(element => {
         let carta = element[0]
         let naipe = element[1]
-        console.log(`carta ${carta}         naipe ${naipe}`)        
+        console.log(`carta ${carta}         naipe ${naipe}`)
         console.log(`naipe ${naipe}`)
 
-        
+
     });
 
 
