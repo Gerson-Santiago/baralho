@@ -10,16 +10,6 @@
                 "<node_internals>/**"
             ],
             "type": "node"
-        },
-        {
-            "type": "node",
-            "request": "launch",
-            "name": "Debug uso.js",
-            "program": "${workspaceFolder}/uso.js",
-            "console": "integratedTerminal",
-            "skipFiles": [
-                "<node_internals>/**"
-            ]
         }
     ]
 }
