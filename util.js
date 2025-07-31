@@ -15,7 +15,6 @@ naipes.forEach(element => {
     // console.log(`Naipe ${element} = ${element.charCodeAt(0)}`); // Exemplo de uso do charCodeAt
 });
 
-
 export default function ordenarDeck(deck) {
     // Mapear
     let mapasCartas = setDic(deck);
